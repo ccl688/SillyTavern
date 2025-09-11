@@ -9,4 +9,4 @@ fi
 npm run postinstall
 
 # Start the server
-exec node server.js --listen "$@"
+exec node server.js --configPath=./config/config.yaml --listen "$@"
